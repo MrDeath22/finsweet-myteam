@@ -1,0 +1,14 @@
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+:root {
+   --hero-bgc: #232536;
+   --txt-white: #fff;
+   --txt-dark: #232536;
+   --bgc-btn: #444CFC;
+   --bgc-purple: #F9F9FF;
+   --bgc-lightgreen: #ECF8F9;
+   --bgc-footer: #FFE6D2;
+}
+
