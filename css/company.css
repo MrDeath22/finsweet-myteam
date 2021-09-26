@@ -345,6 +345,23 @@
   padding-top: 170px;
   padding-left: 44px;
   transition: background 0.5s ease , opacity 1s ease;
+ 
+}
+
+.joho__hoverr {
+  width: 320px;
+  height: 320px;
+  background-color: #232536e7;
+  position: absolute;
+  top: 0;
+  padding-top: 170px;
+  padding-left: 44px;
+  transition: background 0.5s ease , opacity 1s ease;
+  opacity: 0;
+}
+
+.joho__hoverr:hover {
+  opacity: 1;
 }
 
 .joho__name {
