@@ -291,6 +291,10 @@
 
 
 /* DETAILS SECTION */
+.details__main-heading {
+  display: none;
+}
+
 .details__wrap {
   background: #ECF8F9;
 }
@@ -356,6 +360,10 @@
 
 
 /* APPLY SECTION */
+.apply__main-heading {
+  display: none;
+}
+
 .apply__wrap {
   padding: 96px 0;
 }

@@ -1,3 +1,232 @@
+/* SIROTILLO BLOG PAGE 1 */
+
+/* TRENDING SECTION */
+#trending {
+  padding-top: 96px;
+}
+
+.trending__new {
+  padding-top: 42px;
+}
+
+.trending__title {
+  position: relative;
+}
+
+.trending__title::before {
+  content: '';
+  display: inline-block;
+  top: -41px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #FFD3AF;
+}
+
+.trending__title,
+.trending__subtitle,
+.trending__paragraph {
+  margin-bottom: 24px;
+}
+
+.trending__link {
+  margin-bottom: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444CFC;
+  opacity: 0.87;
+}
+
+.trending__link i {
+  position: relative;
+  top: 1px;
+  transform: rotate(180deg);
+  color: #000;
+}
+
+.trending__author-wrap {
+  margin-bottom: 53px;
+}
+
+.author {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+}
+
+.trending__author {
+  margin-right: 16px;
+}
+
+.trending__author-wrap::before {
+  content: '';
+  margin-right: 12px;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../media/blog-img/author.png);
+}
+
+.post-time {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.6;
+}
+
+.trending__post-time {
+  padding-left: 16px;
+  border-left: 1px solid #232536;
+}
+
+/* side */
+.trending__side {
+  padding: 72px 77px 72px 72px;
+  width: 515px;
+  height: 776px;
+  background: #FFDFC6;
+}
+
+.side__new {
+  margin-bottom: 48px;
+}
+
+.side__new-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+}
+
+.side__author-wrap,
+.recent__author-wrap,
+.all__author-wrap {
+  margin-top: 16px;
+  margin-left: 44px;
+  position: relative;
+}
+
+.side__author-wrap::before,
+.recent__author-wrap::before,
+.all__author-wrap::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: -44px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../media/blog-img/author.png);
+}
+
+.side__post-time {
+  position: relative;
+  top: -10px;
+}
+/* TRENDING SECTION */
+
+
+/* RECENT SECTION */
+#recent {
+  margin-top: 96px;
+  padding-bottom: 96px;
+}
+
+.recent__title {
+  margin-bottom: 64px;
+}
+
+.recent__posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 32px;
+}
+
+.recent__post {
+  width: 624px;
+  height: 248px;
+  background: #f9f9ff;
+  transition: all 0.2s ease-in-out;
+}
+
+.recent__post:hover {
+  box-shadow: 0px 9px 34px -6px rgba(34, 60, 80, 0.2);
+}
+
+.recent__post-text {
+  margin-left: 32px;
+}
+
+.recent-post-title {
+  margin-bottom: 34px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+}
+/* /RECENT SECTION */
+
+
+/* ALL POSTS SECTION */
+#all {
+  padding: 96px 0;
+  background: #F9F9F9;
+}
+
+.all__posts {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 32px;
+}
+
+.all__post {
+  width: 405px;
+  height: 597px;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.all__post:hover {
+  box-shadow: 0px 9px 34px -6px rgba(34, 60, 80, 0.2);
+}
+
+.all__post-text-wrap {
+  padding: 32px;
+}
+
+.all__post-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+}
+
+.all__post-p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+}
+
+/* /ALL POSTS SECTION */
+
+
+
+
+/* /SIROTILLO BLOG PAGE 1 */
+
+/* =============================================================== */
+
 /* SHOXRUX */
 
 
