@@ -5,10 +5,16 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Finsweet</title>
+
+   <!-- FONTS ======================= -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <!-- ICONS ======================= -->
    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+   <!-- STYLES ====================== -->
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/column.css">
    <link rel="stylesheet" href="css/global.css">
@@ -18,12 +24,93 @@
 <body>
    
    <main>
-
-
       <!-- SIROTILLO 2-page -->
+      <section id="job">
+         <div class="job__wrap career-container row evenly align-center">
+            <div class="job__text">
+               <h2 class="job__title title">CAREER AT Ether</h2>
+               <h3 class="job__subtitle subtitle">Full Stack Developer</h3>
+               <p class="job__paragraph paragraph">
+                  Through True Rich Attended does no end it his mother <br> 
+                  since real had half every him case in packages.
+               </p>
+               <a href="#" class="job__btn career-btn">Apply Now <i class='bx bx-arrow-back'></i></a>
+            </div>
+            <div class="job__desc">
+               <h3 class="job__desc-title">Job Description</h3>
+               <p class="job__desc-p">Remote, India , 4 to 5 Years Of Experience</p>
+               <p class="job__desc-p">Department: Product Engineering</p>
+               <p class="job__desc-p">Full Time 5 Position Available.</p>
+            </div>
+         </div>
+      </section>
 
+      <section id="details">
+         <div class="details__wrap container">
+            <ul class="deatils__menu row center">
+               <li class="details__item details__item--active"><button>Details</button></li>
+               <li class="details__item"><button>Requirements</button></li>
+               <li class="details__item"><button>ResponsibiLIties</button></li>
+            </ul>
+            <ul class="details__text-list">
+               <li class="details__text-list-item">
+                  Create and edit video content for multi-platform use and distribution for social media channels <br> 
+                  (Facebook, Youtube, Instagram, Snapchat, IGTV, Facebook Stories and Instagram Stories).
+               </li>
+               <li class="details__text-list-item">
+                  Design & Create highly engaging industry-related content in both photo, gif & video format
+               </li>
+               <li class="details__text-list-item">
+                  Publish Posts on various social media channels
+               </li>
+               <li class="details__text-list-item">
+                  Promote content on social networks and monitor engagement (e.g. comments and shares)
+               </li>
+               <li class="details__text-list-item">
+                  Research industry-related topics
+               </li>
+               <li class="details__text-list-item">
+                  Editing audio and sound design on projects
+               </li>
+               <li class="details__text-list-item">
+                  Engage in opportunities to develop original content and concepts for web and mobile
+               </li>
+               <li class="details__text-list-item">
+                  Create motion graphics and animations using 2D and 3D applications for marketing and promotional <br> 
+                  usage.
+               </li>
+               <li class="details__text-list-item">
+                  Manage the day-to-day handling of all social media channels such as LinkedIn, Facebook, Twitter, <br> 
+                  Pinterest, Instagram, Tiktok and YouTube, adapting content to suit different channels
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <section id="apply">
+         <div class="apply__wrap container">
+            <h2 class="apply__title">Apply Now</h2>
+            <form action="https://echo.htmlacademy.ru/" method="POST" class="apply__form forma">
+               <div class="forma__personal-wrap">
+                  <input type="text" name="fname" id="fname" class="forma__personal" placeholder="Firs Name" maxlength="20" required>
+                  <input type="text" name="lname" id="lname" class="forma__personal" placeholder="Last Name" maxlength="20" required>
+                  <input type="email" name="email" id="fname" class="forma__personal" placeholder="Email Id" maxlength="20" required>
+                  <input type="number" name="number" id="number" class="forma__personal" placeholder="Mobile No" maxlength="20" required>
+               </div>
+               <textarea name="message" id="message" cols="30" rows="10" placeholder="Why do you think you are good fit for Ether?"></textarea>
+               <div class="forma__checkbox row">
+                  <input type="Checkbox" id="privacy" name="privacy" required>
+                  <p class="forma__checkbox-p">
+                     I agree to accept the privacy policy,  We will add your contact details provided in this form to our system <br> 
+                     for contacting you regarding your request.
+                  </p>
+               </div>
+               <button class="forma__btn career-btn">Submit Application <i class='bx bx-arrow-back'></i></button>
+            </form>
+         </div>
+      </section>
 
    </main>
-
+   
 </body>
 </html>
