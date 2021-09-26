@@ -12,6 +12,10 @@ body {
    --bgc-footer: #FFE6D2;
 }
 
+#hedaer {
+   background-color: var(--hero-bgc);
+}
+
 .hero-section {
    background: var(--hero-bgc);
 }
